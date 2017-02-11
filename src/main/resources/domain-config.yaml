@@ -1,0 +1,27 @@
+domain: Kokyaku
+builderBaseClass: AbstractDomainBuilder
+members:
+ -
+  type: String
+  name: code
+  explain: 顧客コード
+ -
+  type: GenteiKubun
+  name: genteiKubun
+  explain: 限定区分
+ -
+  type: KokyakuKubun
+  name: kokyakuKubun
+  explain: 顧客区分
+ -
+  type: String
+  name: name
+  explain: 顧客名
+ -
+  type: String
+  name: address
+  explain: 住所
+ -
+  type: String
+  name: shukanBushoCode
+  explain: 主幹部署コード
